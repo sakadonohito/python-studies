@@ -8,7 +8,7 @@ def main():
     #env = gym.make("CartPole-v1", render_mode="rgb_array") # Colabで動かす,動画として保存,AIに画像入力したい場合
     obs, info = env.reset()
 
-    for _ in range(10):
+    for _ in range(1000):
         env.render()
         frame = env.render()
         print(frame) # 画像のピクセル値（整数の配列）# e.g. [[[255 255 255]...] [[255 255 255]...]...]
